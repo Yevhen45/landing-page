@@ -86,21 +86,79 @@ a {
     font-size: 16px;
 }
 
-.random_info .title_random_info{
+.random_info {
+    margin: 50px 0;
+}
+
+.random_info .title_random_info {
     text-align: center;
     margin: 50px 0;
     font-weight: 900;
     font-size: 26px;
 }
-.random_info .random_blocks{
+
+.random_info .random_blocks {
     display: flex;
-    justify-content: space-between;
-    gap: 30px;
+    justify-content: space-around;
+
 }
 
- .random_block {
+.random_block {
     border: 3px solid rgb(0, 0, 255);
     border-radius: 5%;
     width: 150px;
     height: 150px;
+}
+
+.random_blocks div {
+    text-align: center;
+    max-width: 150px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    padding: 100px 0;
+    text-align: left;
+    align-items: center;
+}
+
+.quote p {
+    font-size: 36px;
+    font-weight: 300;
+}
+
+.call {
+    padding: 100px 0;
+}
+
+.call_content {
+    background-color: rgb(0, 0, 255);
+    padding: 50px;
+    color: #fff;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.call .container .call_content {
+    display: flex;
+    justify-content: space-around;
+}
+.call_content button{
+background: none;
+border: 1px solid #fff;
+color: #fff;
+font-size: 18px; 
+cursor: pointer;
+padding: 5px 15px;
+border-radius: 10px;
+}
+
+.copy{
+background-color: #1F2937;
+}
+.copy .foot{
+color: #fff;
+padding: 20px;
+text-align: center;
 }
